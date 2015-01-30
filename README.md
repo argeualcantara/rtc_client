@@ -1,5 +1,5 @@
 <h5>
-This is a Python client for IBM's Rational Team Concert to work with OSLC.<br/>
+This is a Python client for IBM's Rational Team Concert that works with OSLC Rest API.<br/>
 Its currently creating a list of avaliable project areas and for each project area it's types and statuses as well as workitems and thimesheet entrys.<br/>
 Currently supporting Python 2.7<br/>
 </h5>

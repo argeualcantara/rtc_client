@@ -77,7 +77,7 @@ class RtcClient(object):
 				
 		return list_statuses
 
-	def getProjectAreaWorkitems(self, project_area, lastModified):
+	def getProjectAreaWorkitems(self, project_area, lastModified=None):
 		list_workitem = collections.OrderedDict([])
 		id_project_area = project_area['ProjectAreaId']
 		conditions = '?oslc_cm.properties=*&oslc.query=dc:identifier>1&oslc_cm.pageSize=100&_startIndex=0'

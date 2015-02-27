@@ -5,7 +5,6 @@ import collections
 import xml2obj
 from config import host_name, auth_url, auth_data
 
-
 headers_global = {'Accept': 'text/xml', 'OSLC-Core-Version': '1.0'}
 headers_oslc_2_0_global = {'Accept': 'text/xml', 'OSLC-Core-Version': '2.0'}
 
